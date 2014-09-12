@@ -8,6 +8,8 @@ include_recipe 'virtualbox'
 
 include_recipe 'vagrant'
 
+package 'git'
+
 user 'kitchen' do
   supports :manage_home => true
   shell '/bin/bash'

@@ -4,7 +4,7 @@ maintainer_email 'you@example.com'
 license          'all_rights'
 description      'Installs/Configures kitchen'
 long_description 'Installs/Configures kitchen'
-version          '0.5.1'
+version          '0.6.0'
 depends          'virtualbox'
 depends          'vagrant'
 

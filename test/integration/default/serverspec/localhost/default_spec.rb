@@ -24,6 +24,10 @@ describe 'Kitchen Cookbook Default Recipe' do
   it 'should install the ChefDK' do
     expect(command 'chef --version').to return_stdout /Chef Development Kit Version: \d+\.\d+\.\d+$/
   end
+
+  it 'should install git' do
+    expect(command 'git --version').to return_stdout /git version \d+\.\d+\.\d+$/
+  end
   
 end
 
