@@ -1,6 +1,11 @@
 # kitchen
 
-This cookbook sets up a machine for cookbook testing purposes.
+This cookbook sets up a machine for cookbook testing purposes.  It will provide:
+
+- a kitchen user
+- vagrant
+- virtualbox
+- chefdk
 
 ## Usage
 
